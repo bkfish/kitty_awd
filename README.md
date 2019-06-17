@@ -1,4 +1,4 @@
-# asuri金科校赛awd准备
+# 金科校赛awd准备
 ## Web 攻
  一、使用`segment_To_file.py`把所有ip写入`ip_file.txt`中(不定参数为C端，一般输入1，注意1.1结尾的为路由器可能需要删除)      
 
@@ -14,3 +14,5 @@
  
 ## Web 防
  把`Flow_Analysis.php`放在根目录，在使用的地方`require_once('Flow_Analysis.php');`,log在`\logs\`目录下  
+额额 后事
+[小菜鸡被虐记录](https://kit4y.github.io/2019/06/17/First-AWD/)

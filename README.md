@@ -13,6 +13,9 @@
 修改`get_flag_to_file`中的`getflag`函数  
  
 ## Web 防
- 把`Flow_Analysis.php`放在根目录，在使用的地方`require_once('Flow_Analysis.php');`,log在`\logs\`目录下  
+ 把`Flow_Analysis.php`放在根目录，在使用的地方`require_once('Flow_Analysis.php');`,log在`/tmp/logs/`目录下  
 额额 后事
+```
+sudo find /var/www/ -type f -path "*.php" | xargs sed -i "s/<?php/<?php\nrequire_once('\/tmp\/waf.php');\n/g"
+```
 [小菜鸡被虐记录](https://kit4y.github.io/2019/06/17/First-AWD/)

@@ -1,7 +1,7 @@
 <?php
 
 error_reporting(0); 
-define('LOG_FILEDIR','./logs'); 
+define('LOG_FILEDIR','/tmp/logs'); 
 
 if(is_dir(LOG_FILEDIR))
 #echo "has "

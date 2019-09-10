@@ -8,7 +8,7 @@ if re.match(r"^[0-9]{1,3}$", Segement):
 else:
     print ("Segement format is invaild")
     exit()
-IpScan = '192.168.'+Segement+'.1/24'
+IpScan = '192.168.'+Segement+'.0/24'
 ip_file=open('ip_file.txt','w')
 print("You will Scan Segement "+IpScan+"\n")
 try:

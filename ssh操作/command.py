@@ -5,10 +5,10 @@ import paramiko
 import socket
 import pandas as pd
 
-username='XXX'
-passwd = 'XX' ##旧密码
-ippath="XXX"
-cmd="curl XXX"
+username='root'
+passwd = '123qwe' ##旧密码
+ippath="ip.txt"
+cmd="uname -r"
 
 #先从文本中匹配出ip
 pattern = re.compile(r"\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b")
@@ -41,7 +41,7 @@ def command(Ip,user,passwd,target_command):
         #print(total_out)
         if True:
             print(Ip + " 对应的flag为："+str(out))
-            with open(passwd+'flag.txt','a') as f:
+            with open("command_"+user+"_"+passwd+'_flag.txt','a') as f:
              	f.write(Ip+'\t'+str(out) + '\n')
         else:
             print('\t错误：\t' + str(err))

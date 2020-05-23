@@ -1,0 +1,34 @@
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-row">
+			<div class="col-md-3 footer-grids">
+				<h4>Seafaring</h4>
+				<p>mail@example.com</p>
+				<p>+2 000 222 1111</p>
+				<ul class="social-icons">
+					<li><a class="p"></a></li>
+					<li><a class="in"></a></li>
+					<li><a class="v"></a></li>
+					<li><a class="facebook"></a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-grids">
+			
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-row">
+			<div class="col-md-3 footer-grids">
+				<h4>Seafaring</h4>
+				<p>mail@example.com</p>
+				<p>+2 000 222 1111</p>
+				<ul class="social-icons">
+					<li><a class="p"></a></li>
+					<li><a class="in"></a></li>
+					<li><a class="v"></a></li>
+					<li><a class="facebook"></a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-grids">
+			flag{eaa4a6d7a3ed765985758796f13bd26a}

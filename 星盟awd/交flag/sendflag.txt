@@ -1,0 +1,7 @@
+flag{cfe9c3b6-87bb-343e-a296-d14333db6ecb}
+flag{42c4cdcc-5faa-31ed-95c4-af93f1bbf7b1}
+flag{fefbb455-7637-39c4-acfb-7aa4caec25c8}
+flag{d1be24f0-f89c-32f0-a7af-206908c0a2e2}
+flag{2c346d95-385b-3fb1-8334-35ccf4357e1a}
+flag{b6541514-f9c3-34ef-b646-86c0b46a2e5b}
+flag{2dc27bf7-8262-3fee-abcb-191f56b758ba}
